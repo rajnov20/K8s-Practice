@@ -13,3 +13,8 @@ variable "instance_type_value" {
     default = "subnet-0d966622114afde35"
     
   }
+
+  variable "key_name" {
+    description = "value for key name"
+    
+  }
